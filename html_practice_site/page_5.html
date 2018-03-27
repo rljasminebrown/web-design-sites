@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Comments-->
+	<html>
+		<head>
+			<title>
+				More HTML with Tables and Forms
+			</title>
+			<link href= "style_5.css" type= "text/css" rel= "stylesheet"/>
+			</head>
+		<body>
+			<table class = "pagetable" cellspacing = "5">
+				<tr>
+					<th class = "topcell"><span class = "textlarge">Form and Link Bars</span></th>
+				</tr>
+				<tr>
+					<td class ="linkcell">
+						<table style = "width:700px;margin:auto;">
+						<!--Centers Bar-->
+							<tr>
+								<td>
+									<ul class = "linkbar">
+										<li><a href="index2.html">Home</a></li>
+										<li><a href="page_4.html">Tables</a></li>
+										<li><a href="page_5.html">Forms</a></li>
+										<li><a href="page_6.html">Web Design</a></li>
+									</ul>
+								</td>
+							</tr>
+						</table>	
+					</td>
+				</tr>
+				<tr>
+					<td class = "maincell">
+						<p>
+							We are learning how to create online forms. They can be used for ordering products, getting information, or taking surveys. Go to <a href="http://www.w3schools.com" target ="_blank" class = "altlinks">W3Schools</a> to learn more.
+						</p>
+						
+						<p>
+							Please fill out the following survey so we can get some information and feedback about life at KMHS.
+						</p>
+						<br/>
+						<form action = "mailto:jasmine.brown@kmhsmagnet.com" method = "post" enctype = "text/plain">
+							<table class = "formtable">
+								<tr>
+									<td class = "formleft">
+										First Name:
+									</td>
+									<td class = "formright">
+										<input type = "text" name = "first_name" size = "20"/>
+									</td>
+								</tr>
+								<tr>
+									<td class = "formleft">
+										Last Name:
+									</td>
+									<td class = "formright">
+										<input type = "text" name = "last_name" size = "20"/>
+									</td>
+								</tr>
+								<tr>
+									<td class = "formleft">
+										Email:
+									</td>
+									<td class = "formright">
+										<input type = "text" name = "email" size = "30"/>
+									</td>
+								</tr>
+								<tr>
+									<td class = "formleft">
+										Student Number:
+									</td>
+									<td class = "formright">
+										<input type = "password" name = "id" size = "10" maxlength="7"/>
+									</td>
+								</tr>
+								<tr>
+									<td class = "formleft">
+										Gender:
+									</td>
+									<td class = "formright">
+										<input type = "radio" name = "gender" value ="male"/> Male
+										<br/>
+										<input type = "radio" name = "gender" value ="female"/> Female
+										<br/>
+										<input type = "radio" name = "gender" value ="nonbinary"/> Non-binary
+										<br/>
+										<input type = "radio" name = "gender" value ="prefer_not"/> Prefer Not to Answer
+									</td>
+								</tr>
+								<tr>
+									<td class = "formleft">
+										Class:
+									</td>
+									<td class = "formright">
+										<select name = "class">
+											<option>--Choose From Below--</option>
+											<option value  = "sr">Senior</option>
+											<option value  = "jr">Junior</option>
+											<option value  = "soph">Sophomore</option>
+											<option value  = "fr">Freshman</option>
+											
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td class = "formleft">
+										Favorite Academic Subject:
+										</br>
+										<span class="textsmall">
+											(Choose only one)
+										</span>
+									</td>
+									<td class = "formright">
+										<input type = "radio" name = "academic" value = "math"/> Math<br/>
+										<input type = "radio" name = "academic" value = "science" checked ="checked"/> Science<br/>
+										<input type = "radio" name = "academic" value = "ss"/> Social Studies<br/>
+										<input type = "radio" name = "academic" value = "lit"/> Literature<br/>
+									</td>
+								</tr>
+								<tr>
+									<td class = "formleft">
+										Favorite Electives:
+										</br>
+										<span class="textsmall">
+											(Check all that apply)
+										</span>
+									</td>
+									<td class = "formright">
+										<input type = "checkbox" name = "elective" value = "web"/> Web Design<br/>
+										<input type = "checkbox" name = "elective" value = "comp_sci"checked ="checked"/> Computer Science<br/>
+										<input type = "checkbox" name = "elective" value = "vis_art"/> Visual Art<br/>
+										<input type = "checkbox" name = "elective" value = "cul_arts"/> Culinary Arts<br/>
+										<input type = "checkbox" name = "elective" value = "language"/> Foreign Language<br/>
+										<input type = "checkbox" name = "elective" value = "music"/> Music<br/>
+										<input type = "checkbox" name = "elective" value = "drama"/> Drama<br/>
+										<input type = "checkbox" name = "elective" value = "other"/> Other <input type ="text" name = "elective" size ="30"/>
+									</td>
+								</tr>
+								<tr>
+									<td class = "formleft">
+										List the clubs & sports you are involved in:
+									</td>
+									<td class = "formright">
+										<textarea name = "activites" rows = "3" cols="40">Enter after each activity entered.</textarea>
+									</td>
+								</tr>
+								<tr>
+									<td class = "formleft">
+										What is your favorite lunch line?
+										<br/>
+										<span class = "textsmall">(Choose all that apply, hold down CTRL as you click)</span>
+									</td>
+									<td class = "formright">
+										<select name = "lunch" size = "4" multiple  = "multiple">
+											<option value = "comfort">Comfort</option>
+											<option value = "mexican" selected = "selected">Mexican</option>
+											<option value = "deli">Deli and Bakery</option>
+											<option value = "grilled">Grilled</option>
+											<option value = "pizza">Pizza</option>
+											<option value = "subs">Subs</option>
+										</select>
+									</td>
+								</tr>			
+								<tr>
+									<td class = "formleft">
+										<input type = "submit" name = "submit" value = "Submit My Survey"/>
+									</td>
+									<td class = "formright">
+										<input type = "reset" name = "reset" value = "Reset Survey"/>
+									</td>
+								</tr>
+								
+								
+							</table>	
+						</form>
+					</td>
+				</tr>
+					<td class = "bottomcell">
+						<p class = "center">
+							<span class = "textsmall">
+								<a href = "index2.html" class ="altlinks_2"> Home</a>
+								&nbsp;&nbsp;|&nbsp;&nbsp;
+								<a href = "page_5.html" class ="altlinks_2"> Tables</a>
+								&nbsp;&nbsp;|&nbsp;&nbsp;
+								<a href = "page_5.html" class ="altlinks_2" > Forms</a>
+								&nbsp;&nbsp;|&nbsp;&nbsp;
+								<a href = "page_6.html" class ="altlinks_2"> Web Design</a>
+							</span>
+						</p>
+					</td>
+			</table>
+		</body>
+	</html>
+					
+					
+					
+					
+					
+					
+					

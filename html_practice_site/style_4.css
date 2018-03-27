@@ -1,0 +1,113 @@
+body 		{ background-color: #fbf1da;
+				  color: #283961;
+				  font-size: 14pt;
+				  font-family: georgia;
+		          margin: 40px 50px 100px 50px;
+				}
+h1				{ font-family:  garamond;
+			      text-align: center;
+				}
+h2,h3		{ font-family:  garamond;
+				}								
+.center		{ text-align: center;
+				}
+hr				{ color: #;
+			      background-color: #000033;
+				  height: 3px;
+				  width: 90%;
+				}
+a:link			{ color: #2a4532;
+				}
+a:visited	{ color: #612424;
+				}
+a:hover		{ color: #FF4532 ;
+				}
+a:active		{ color: #612424;
+				}
+.textbold	{ font-weight: bold;
+				  color: #CC0000;
+				}
+.textital		{font-style: italic;
+				}
+.textsmall	{font-size: 10pt;
+				}
+img.border_blue{ border: #000066 10px outset;
+				}
+img.border_lblue{ border: #0000CC 10px outset;
+				}
+ul.sq			{list-style-type: square;
+				}
+.nonlink		{color: #660066 ;
+				}
+.imgright	{ float: right;
+				  margin:  10px 0px 10px 20px;
+				}
+.imgleft		{ float: left;
+				  margin: 10px 20px 10px 0px;
+				}	
+.pagetable	{ width: 90%;
+				  border: 0px none;
+				  border-collapse: separate;
+				  margin: auto;
+				}
+.topcell		{  border: 0px none;
+				   height: 100px;
+				   padding: 10px;
+				   background-color: #e1d8c4;
+				}
+.leftcell		{border: 0px none;
+				 padding: 10px;
+				 width: 20%;
+				 vertical-align: top;
+				 background-color: #e1d8c4;
+				}
+.maincell	{border: 0px none;
+				 padding: 10px;
+				 width: 80%;
+				}
+.bottomcell{border: 0px none;
+				 padding: 1px;
+				 height: 10px;
+				}
+.textlarge	{ font-size:24pt;
+				}
+.pictable	{border: 0px none;
+				 width: 95%;
+				 /* Centers table */
+				 margin: auto;
+				}
+.piccell		{border: 0px none;
+				 width: 50%;
+				 padding: 10px;
+				}
+.gradetable{ border: #2a4532 3px solid;
+					width: 60%;
+					margin:auto;
+					border-collapse:collapse;
+					font-family:arial;
+					}
+.gradecell_1	{border: #2a4532 3px solid;
+					width:40%;
+					padding: 10px;
+					}
+.gradecell_2	{border: #2a4532 3px solid;
+					width:20%;
+					padding: 10px;
+					text-align: right;
+					}
+.helptable		{ width: 70%;
+					  margin: auto;
+					  }
+.helpcell_1		{height: 40px;
+					 background-color:#c8c0ae;
+					 padding: 10px;
+					 }
+.helpcell_2		{ width:33%;
+					 padding: 10px;
+					 height: 30px;
+					 vertical-align: top;
+					 }
+
+
+
+

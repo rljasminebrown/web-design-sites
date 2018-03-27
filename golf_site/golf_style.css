@@ -1,0 +1,40 @@
+body{  background-color: #339900;
+			color: #FFFFFF;
+			font-size: 13pt;
+			font-family: Verdana;
+			margin:30px 40px 50px 40px;
+		}
+h1	{	font-family: trebuchet ms;
+			text-align: center;
+		}
+h3	{	font-family: trebuchet ms;
+		}
+hr		{	color: #000033;
+			background-color: #000033;
+			height: 3px;
+			width: 90%;
+		}
+a:link		{ color: #000033;
+				}
+a:visited	{ color: #CCC000;
+				}
+a:hover	{ color: #FFFFFF;
+				}
+a:active	{ color: #CCC000;
+				}
+img	{ 	border: #000033 10px outset;
+		}
+.ctext	{ 	text-align: center;
+				text-family: trebuchet ms;
+			}
+.center{	text-align: center;
+			}
+.ital		{	font-style: italic;
+			}
+.byell	{	font-weight: bold;
+				color: #CCC000;
+			}
+.csmall{ text-align: center;
+				font-size: 10pt;
+			}
+				

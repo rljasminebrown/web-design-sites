@@ -1,0 +1,143 @@
+body			{	background-color: 	#dddddd;
+					color:#000c18;
+					font-size: 14pt;
+					font-family: geneva;
+					margin: 40px 50px 100px 50px;
+				}
+h1				{	text-align:center;
+					font-family:Century schoolbook;
+					color:;
+				}
+h2,h3		{	font-family: geneva;
+					text-align: center;
+}
+ul.linkbar	{	list-style-type:none;
+					margin: 0px;
+					padding: 0px;
+					overflow: hidden;
+				}
+li				{	float:left;
+				}
+a:link,a:visited{display:block;
+					  width: 160px;
+					  font-weight: bold;
+					  color: #e0e2e1;
+					  background-color: #838383;
+					  padding: 4px;
+					  text-decoration: none;
+					  text-transform: uppercase;
+					}
+a:hover,a:active{background-color: #898f97;
+					}
+a.altlinks	{	text-decoration: underline;
+					display: inline;
+					font-weight: normal;
+					text-transform: none;
+					color: #131f2f;
+					background-color: #dddddd;
+				}
+a.altlinks_2	{	text-decoration: underline;
+					display: inline;
+					font-weight: normal;
+					text-transform: none;
+					color: #612424;
+					background-color: #59809D;
+				}
+th				{font-size: 18pt;
+				}				
+.pagetable	{ 	width: 75%;
+					border: 0px none; 
+					border-collapse: separate;
+					margin: auto;
+				}
+.topcell		{  border: 0px none; 
+				   height: 100px;
+				   padding: 10px;
+				   background-color:#59809D;
+				}
+.linkcell		{	text-align:center;
+					height:30px;
+				}
+.maincell	{	border: 0px none; 
+					padding: 10px;
+					vertical-align:top;
+				}
+.bottomcell{	border: 0px none;
+					padding: 1px;
+					height: 10px;
+					background-color:#59809D;
+				}				
+hr				{ 	width: 100%;
+				}
+.center		{ 	text-align: center;
+				}
+.textlarge	{	font-size:24pt;
+					font-family: tahoma;
+				}
+.pictable	{	border: solid 3px;
+					border-color: #59809D;
+					border-collapse:collapse;
+					width: 95%;
+				 /* Centers table */
+					margin: auto;
+				}
+.piccell		{	border: solid;
+					border-color: #59809D;
+					width: 40%;
+					padding: 10px;
+				}
+.cell			{	border: solid;
+					border-color: #59809D;
+					width: 20%;
+					vertical-align:top;
+					height: 70px;
+					padding: 10px;
+				}
+.tabletitle	{	font-size: 16pt;
+					font-weight: bold;
+				}
+ .specstable{	width:70%;
+					margin: auto;
+					padding: 5px;
+				}
+				
+.specscell	{	width:20%;
+					vertical-align:top;
+					padding:10px;
+				}
+.specscell2{	width: 40%;
+					vertical-align:top;
+					padding:10px;
+					}
+img.features{	width:100%;
+					}			
+.formtable	{	width:80%;
+					margin: auto;
+				}
+.formleft	{	padding: 15px;
+					vertical-align: top;
+					text-align: right;
+					width: 50%;
+				}
+.formright	{	text-align: left;
+					width: 50%;
+					padding: 15px;
+					vertical-align: top;
+				}					
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
