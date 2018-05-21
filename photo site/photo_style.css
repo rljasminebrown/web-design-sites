@@ -1,0 +1,110 @@
+﻿body 	{background-color:#dadae3;   /*add color*/
+	margin-left: 30px;
+	margin-right: 30px;
+	font-family: Verdana;
+	font-size: 12px;
+	color:purple;    /*add color*/
+	}
+
+a:link 	{color:#26004c;    /*add color*/
+	}
+
+a:visited {color:#008080;    /*add color*/
+	}
+
+a:hover {color:	#008080;      /*add color*/
+	text-decoration:overline;
+	}
+
+a:active {color:#008080;     /*add color*/
+	}
+
+.style3 {font-family: trebuchet ms;
+	}
+	
+.center {text-align:center;	
+	}
+
+.left	{text-align:left;
+	}
+
+.right	{text-align:right;
+	}
+
+.table1	{border:0px none;
+	width:90%;
+	}
+
+.tdlogo	{border: 0px none;
+	width:20%;
+	height:140px;
+	padding:10px;
+	text-align:left;
+	}
+
+.tdtop 	{height:140px;
+	border:0px none;
+	padding:10px;
+	width:80%;
+	text-align:left;
+	}
+
+.tdlinks {border:0px none;
+	 padding:10px;
+	 text-align:left;
+	 width:20%;
+	 vertical-align:top;
+	 }
+
+.tdmain	{border:0px none;
+	padding:10px;
+	width:80%;
+	vertical-align:top;
+	text-align:left;
+	}
+
+.pricetable	{width:95%;
+		border:#008080 3px solid;      /*add border style, size, and color*/
+		border-collapse:collapse;
+		margin:auto;
+		background-color:    ;   /*add color*/ 
+		}
+
+.pricecells	{border:#008080 3px solid;   /*add border style, size, and color*/
+		width:25%;
+		padding:10px;
+		vertical-align:top;
+		}
+		
+.formtable	{width:90%;
+		border: 0px none;
+		border-collapse:collapse;
+		margin:auto;
+		}
+
+.formlefttd	{border:0px none;
+		padding:15px;
+		text-align:right;
+		width:50%;
+		vertical-align:top;
+		}
+
+.formrighttd	{border:0px none;
+		padding:15px;
+		text-align:left;
+		width:50%;
+		vertical-align:top;
+		}
+		
+.portfoliotable	{width:90%;
+		border:#008080 3px solid;   /*add border style, size, and color*/ 
+		border-collapse:collapse;
+		margin:auto;
+		}
+
+.portfoliocells	{border:#008080 3px solid;   /*add border style, size, and color*/
+		width:33.3%;
+		padding:10px;
+		}
+		
+
