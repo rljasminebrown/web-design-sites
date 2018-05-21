@@ -1,0 +1,42 @@
+﻿body {
+	font-family: Terminal;
+	font-size: 14pt;
+	color: #00CC00;
+	margin: 50px 60px 120px 60px;
+	background-color: #000000;
+}
+h1 {
+	font-family: Terminal;
+	color: #FFFFFF;
+	text-align: center;
+}
+.center {
+	text-align: center;
+}
+.font_1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.font2 {
+	font-style: italic;
+	color: #FF0000;
+}
+a:link {
+	color: #0066CC;
+}
+a:visited {
+	color: #FFFF00;
+}
+a:hover {
+	color: #3366FF;
+	text-decoration: underline overline;
+}
+a:active {
+		color: #FFFF00
+}
+hr {
+	color: #00CC00;
+	background-color: #00CC00;
+	height: 3px;
+	width: 85%;
+}
